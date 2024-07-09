@@ -37,6 +37,12 @@
 <body class="m-page">
 
     <div class="wrapper2" style="padding: 10px;">
+        <button data-modal="successModal" style="border: 2px solid #000; color: #000; margin-bottom: 20px;">
+            Purchase completed
+        </button>
+        <a href="boost.html" style="display: block; margin-bottom: 20px;">
+            Boost
+        </a>
         <a href="index.html" style="display: block; margin-bottom: 20px;">
             Home
         </a>
@@ -91,16 +97,21 @@
 
 
 
-    <div class="modal" id="Modal">
+    <div class="modal success-modal" id="successModal">
         <div class="modal__bg modal-bg _close-modal"></div>
         <div class="modal__dialog">
-            <div class="modal__top">
-                <div class="text32 medium-text">
-                    Title
+            <div class="modal__content">
+                <img src="img/success2.svg" alt="" class="success-modal__icon">
+                <div class="text20 semi-bold-text">
+                    Purchase completed
+                    successfully
                 </div>
-                <button class="close-btn _close-modal">
-                    <img src="img/close.svg" alt="">
-                </button>
+                <div class="text14 gray-text">
+                    Level activation takes 2 minutes
+                </div>
+                <div class="progress-bar">
+                    <span style="width: 75%;"></span>
+                </div>
             </div>
         </div>
     </div>
