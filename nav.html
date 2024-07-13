@@ -37,6 +37,12 @@
 <body class="m-page">
 
     <div class="wrapper2" style="padding: 10px;">
+        <a href="leaderboard.html" style="display: block; margin-bottom: 20px;">
+            Leaderboard
+        </a>
+        <button data-modal="processModal" style="border: 2px solid #000; color: #000; margin-bottom: 20px;">
+            Transaction is sent
+        </button>
         <button data-modal="successModal" style="border: 2px solid #000; color: #000; margin-bottom: 20px;">
             Purchase completed
         </button>
@@ -114,6 +120,21 @@
                 </div>
                 <div class="progress-bar">
                     <span style="width: 75%;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal success-modal" id="processModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <img class="m-loader" src="img/loader3.svg" alt="">
+                <div class="text20 semi-bold-text">
+                    Transaction is sent
+                </div>
+                <div class="text14 gray-text">
+                    Please, wait for the network confirmation
                 </div>
             </div>
         </div>
