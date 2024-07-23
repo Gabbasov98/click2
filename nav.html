@@ -37,6 +37,9 @@
 <body class="m-page">
 
     <div class="wrapper2" style="padding: 10px;">
+        <button data-modal="buyUpgradeModal" style="border: 2px solid #000; color: #000; margin-bottom: 20px;">
+            Buy upgrades
+        </button>
         <a href="leaderboard.html" style="display: block; margin-bottom: 20px;">
             Leaderboard
         </a>
@@ -136,6 +139,26 @@
                 <div class="text14 gray-text">
                     Please, wait for the network confirmation
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal success-modal buy-upgrade-modal" id="buyUpgradeModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <img class="buy-upgrade-modal__icon" src="img/coin5.png" alt="">
+                <div class="text20 semi-bold-text">
+                    Buy upgrades to earn more
+                </div>
+                <div class="buy-upgrade-modal__desc">
+                    <div class="text14">
+                        There are no free earnings now. Buy upgrades with 20% discount and earn up to 375% for 15 days
+                    </div>
+                </div>
+                <button class="buy-upgrade-modal__btn m-btn m-btn-blue">
+                    <span>Choose Upgrades</span>
+                </button>
             </div>
         </div>
     </div>
